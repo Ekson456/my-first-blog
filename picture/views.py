@@ -1,7 +1,6 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 
-def hello(request):
-    return HttpResponse("hello again")
+def post_list(request):
+    return render(request, 'picture/post_list.html', {})
 
 # Create your views here.
