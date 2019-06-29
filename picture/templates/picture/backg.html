@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+    <head>
+        <title>Food House</title>
+ <link href="{% static 'css/entebe.css' %}" rel="stylesheet">
+   <style>
+      body{
+        min-height: 1000px;
+        min-width: 1000px;
+        background-image:url('{% static "css/images/road.jpg" %}');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-centre: fixed;
+        }
+       h2.pos_right {
+        position: relative;
+        left: px;
+        }
+   </style>
+    </head>
+    <body>
+
+    <nav>
+        <a href="/">Home</a> |
+        <a href="/html/">Product</a> |
+        <a href="/html/">About us</a> |
+    </nav>
+
+    <h1><a href="/">Food House</a></h1>
+    <h2>Item List</h2>
+    <h2 class="pos_right">Item Categories</h2>
+
+
+
+
+
+      </body>
+</html>
